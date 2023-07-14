@@ -37,7 +37,7 @@ DaSiamTracker::DaSiamTracker()
     */
     params.backend = 5; //CUDA Backend
 
-    //CHANGE THE TARGET VALUE TO 7 IF FULL FLOAT PRECISION IS DESIRED
+    //CHANGE THE TARGET VALUE TO 6 IF FULL FLOAT PRECISION IS DESIRED
     params.target = 7; //CUDA fp16 (half-float preprocess)
 
     tracker = TrackerDaSiamRPN::create(params);
@@ -93,7 +93,7 @@ DaSiamTracker::DaSiamTracker(int w, int h)
     */
     params.backend = 5; //CUDA Backend
 
-    //CHANGE THE TARGET VALUE TO 7 IF FULL FLOAT PRECISION IS DESIRED
+    //CHANGE THE TARGET VALUE TO 6 IF FULL FLOAT PRECISION IS DESIRED
     params.target = 7; //CUDA fp16 (half-float preprocess)
 
     tracker = TrackerDaSiamRPN::create(params);
