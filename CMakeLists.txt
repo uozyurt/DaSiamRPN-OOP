@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( DaSiamRPNTrack )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+add_executable( DaSiamRPNTrack main.cpp dasiamtracker.cpp)
+target_link_libraries( DaSiamRPNTrack ${OpenCV_LIBS} )
