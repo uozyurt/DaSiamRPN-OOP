@@ -16,15 +16,15 @@ An example implementation of the **DaSiamTracker** class in dasiamtracker.hpp fi
 ### Building and Running
 First, download the files
 Then, go in to the project folder. Navigate to the build directory.
-
+```sh
 cd build
 ```
 After this, perform cmake and make commands.
-```
+```sh
 cmake ..
 make
 ```
 Finally, you are ready to run the program.
-```
+```sh
 ./DaSiamRPNTrack
 ```
