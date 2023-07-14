@@ -1,6 +1,6 @@
 # DaSiamRPN-OOP
 
-This is an openCV DaSiamRPN implementation. It is tested with NVIDIA Jetson Nano and recieved an average of 16-19 FPS. With NVIDIA RTX 3050 mobile version, it recieves around 80 FPS.\
+This is an openCV DaSiamRPN implementation. It is tested with NVIDIA Jetson Nano and recieved an average of 16-19 FPS. With NVIDIA RTX 3050 mobile version, it recieves around 120-130 FPS.\
 Note: The current implementation is using CUDA backend with fp16 halp precision in order to increase FPS.\
 \
 **!!WARNING:** To build and run this code, you have to build openCV with CUDA. [This link](https://github.com/zadobudak/Install-Opencv-4.7.0-CUDA-Ubuntu) can be used for that purpose.\
