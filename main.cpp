@@ -76,9 +76,6 @@ int main( int argc, char** argv)
     int f;
 
 
-    //boolean value to check if tracking ever initialized.
-    bool if_initialized = false;
-
 
     //print original dimensions
     cout << "original w: " << w << ",  original h: " << h << ", original fps: " << org_fps << endl << endl;
