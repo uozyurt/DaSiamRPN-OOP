@@ -19,7 +19,7 @@ This DaSiamTracker class implementation is made for the sake of simplicity, usin
 1. Create the tracker object, set it's width and height. Also declare the initial bounding box coordinates.
 2. To initialize, set the current frame and call the initialize tracking function.
 3. To resume the tracking, set the current frame and call the track function.
-4. Use `get_current_tracked_bbox()`, `get_fps()`, `get_score()` functions to obtain the results.
+4. Use `get_current_tracked_bbox()`, `get_fps()`, `get_score()` functions to obtain the results.\
 **!! WARNING: Before initialization and each single tracking operation, you should set a new frame.**
 
 #### More detailed usage explanation:
