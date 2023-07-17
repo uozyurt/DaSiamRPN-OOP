@@ -23,25 +23,25 @@ public:
     DaSiamTracker();
     DaSiamTracker(int w, int h);
 
+    //function to set the width and height of the frames
+    void set_w_h(int new_w, int new_h);
+
+    //functions for setting the new static bbox, which will be used in tracking initialization at each track signal
+    void set_static_bbox(int new_bbox_x_px, int new_bbox_y_px, int new_bbox_w_px, int new_bbox_h_px);
+
 
 
     //function to initialize the tracking with the current static bbox
     void initialize_tracking();
 
-    //function to continue tracking
-    void track();
 
 
     //function to get the new frame to be used in tracking
     void set_frame(Mat* new_frame);
 
+    //function to continue tracking
+    void track();
 
-
-    //functions for setting the new static bbox, which will be used in tracking initialization at each track signal
-    void set_static_bbox(int new_bbox_x_px, int new_bbox_y_px, int new_bbox_w_px, int new_bbox_h_px);
-
-    //function to set the width and height of the frames
-    void set_w_h(int new_w, int new_h);
 
 
 
